@@ -36,7 +36,8 @@ pip install numpy
 - *ProcessThread*: Nhận frame từ CaptureThread, xử lý và phát tín hiệu frame_processed.
 
 - *StreamThread*: Nhận frame đã xử lý từ ProcessThread và hiển thị nó.
-  ![image](https://github.com/user-attachments/assets/7143024d-9a78-4a6e-a4b4-3817c2cb45f4)
+  ![image](https://github.com/user-attachments/assets/1b520558-be2b-481a-91a6-8f4f021f4d44)
+
 
 ## Phân tích
 Với file *main.py* tạo các signal và slot đã được thiết lập để kết nối giữa các luồng (CaptureThread, ProcessThread, và StreamThread). Đây là cách PyQt5 và QThread hoạt động để giao tiếp giữa các luồng một cách an toàn và hiệu quả.
